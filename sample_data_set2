@@ -1,0 +1,42 @@
+1. Time each course is taking place: Course name followed by list of days and times. Example: 
+
+CSE306, Tue, 2:30 PM, Th, 2:30 PM
+CSE307, Tue, 2:30 PM, Th, 2:30 PM
+CSE529, Mon, 5:30 PM, Wed, 5:30 PM
+CSE532, Mon, 5:30 PM, Wed, 5:30 PM
+
+2. Course recitations: Course name followed by list of days and times of recitations (as above)
+Assume each recitation takes 90 minutes.
+
+CSE306, Mon, 2:30 PM
+CSE307, Mon, 2:30 PM
+
+3. Course details: Course name followed by number of students enrolled and Boolean value 
+indicating if TA has to attend lectures. Example: 
+
+CSE306, 36, no
+CSE307, 65, yes
+CSE529, 36, no
+CSE532, 100, yes
+
+4. Course requirements: skills required from a TA of the course: course name followed by a list of 
+skills. Example: 
+
+CSE306, C, C++, Java, JavaScript, JSP, Python, C#
+CSE307, C, C++, Java, JavaScript, JSP, Python, C#, Awesome Hacking Skills, Security, Networking, Data structures
+CSE529,C, C++, Java, JavaScript, JSP, Python, C#, Awesome Hacking Skills, Security, Networking, Data structures
+CSE532, C#, Awesome Hacking Skills, Security, Networking, Data structures
+
+5. TA responsibilities: TA name followed by list of days and times of classes TA is taking (no class 
+names). Example:
+
+TA1, Mon, 2:30 PM 
+TA2, Wed, 2:30 PM
+TA5, Mon, 8:00 AM 
+
+6. TA skills: skills possessed by each TA: name followed by list of skills.
+Example:
+
+TA1, C, C++, Java, JavaScript
+TA2, Java, JavaScript, JSP, Python
+TA5, Java, JavaScript, JSP, Python
